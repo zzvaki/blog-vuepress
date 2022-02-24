@@ -6,14 +6,16 @@ tags:
 - 组件封装
 ---
 
+# websocket的简单封装
+
 分享一下自己封装的一个websocket，可以实现在页面全局监听后端的更行推送通知，收到通知后执行涉及相关接口的方法。
 
-# 主要逻辑
+## 主要逻辑
 
 1. 在app.vue创建ws实例，接收数据后存入vuex。
 2. 在需要实时更新数据的页面/组件创建监听，触发更新后执行相关代码。
 
-# 上代码
+## 上代码
 
 websocket.js，创建ws实例。
 ``` js
@@ -160,7 +162,10 @@ class WebSocketClass {
 export default WebSocketClass;
 ```
 
-## 在store保存中的状态管理，用于识别/确定ws推送更新
+## 状态管理
+
+在store保存中的状态管理，用于识别/确定ws推送更新
+
 ``` js
 const app:{
   state:{
@@ -180,7 +185,10 @@ const app:{
 }
 ```
 
-## 全局监听，这里watch了一下用户信息，用于在建立ws连接时留给后端的用户标识。
+## 全局监听
+
+这里watch了一下用户信息，用于在建立ws连接时留给后端的用户标识。
+
 app.vue
 ``` js
   created() {

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.35">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/tou.jpg"><title>vue3的极速开发初体验 | 一个小博客</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="modulepreload" href="/assets/app.3b0237f4.js"><link rel="modulepreload" href="/assets/vue3开发体验分享.html.6f3bf2aa.js"><link rel="modulepreload" href="/assets/vue3开发体验分享.html.66b8b552.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="stylesheet" href="/assets/style.e8e8fc80.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header ref_key="navbar" class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><img class="logo" src="/images/tou.jpg" alt="一个小博客"><span class="site-name can-hide">一个小博客</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="Home"><!--[--><!--]--> Home <!--[--><!--]--></a></div><div class="navbar-item"><a href="/front-end/index.md" class="" aria-label="前端开发"><!--[--><!--]--> 前端开发 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/blockchain/index.md" class="" aria-label="区块链"><!--[--><!--]--> 区块链 <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="Home"><!--[--><!--]--> Home <!--[--><!--]--></a></div><div class="navbar-item"><a href="/front-end/index.md" class="" aria-label="前端开发"><!--[--><!--]--> 前端开发 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/blockchain/index.md" class="" aria-label="区块链"><!--[--><!--]--> 区块链 <!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><a href="/front-end/websocket%E7%9A%84%E7%AE%80%E5%8D%95%E5%B0%81%E8%A3%85.html" class="sidebar-item sidebar-heading" aria-label="websocket的简单封装"><!--[--><!--]--> websocket的简单封装 <!--[--><!--]--></a><!----></li><li><a href="/front-end/%E9%87%8D%E5%A4%8D%E8%AF%B7%E6%B1%82%E5%8F%96%E6%B6%88%E7%BB%84%E4%BB%B6.html" class="sidebar-item sidebar-heading" aria-label="重复请求取消组件"><!--[--><!--]--> 重复请求取消组件 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/front-end/vue3%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%88%86%E4%BA%AB.html" class="router-link-active router-link-exact-active router-link-active sidebar-item sidebar-heading active" aria-label="vue3的极速开发初体验"><!--[--><!--]--> vue3的极速开发初体验 <!--[--><!--]--></a><!--[--><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/front-end/vue3%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%88%86%E4%BA%AB.html#新特性" class="router-link-active router-link-exact-active sidebar-item" aria-label="新特性"><!--[--><!--]--> 新特性 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/front-end/vue3%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%88%86%E4%BA%AB.html#直接进入主题-vue3项目搭建" class="router-link-active router-link-exact-active sidebar-item" aria-label="直接进入主题，vue3项目搭建"><!--[--><!--]--> 直接进入主题，vue3项目搭建 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/front-end/vue3%E5%BC%80%E5%8F%91%E4%BD%93%E9%AA%8C%E5%88%86%E4%BA%AB.html#新的开发方式" class="router-link-active router-link-exact-active sidebar-item" aria-label="新的开发方式"><!--[--><!--]--> 新的开发方式 <!--[--><!--]--></a><!----></li><!--]--></ul><!--]--></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><h1 id="vue3的极速开发初体验" tabindex="-1"><a class="header-anchor" href="#vue3的极速开发初体验" aria-hidden="true">#</a> vue3的极速开发初体验</h1><p>vue3从20年7月发布测试版本以来，一直保持较高的更新频率，在开发者中也广受关注，相对于vue2更新了一些新的特性，我也一直关注vue3生态的发展。 受够了webpack臃肿的配置项，尤其是漫长的打包和热更新速度。而vue3推荐使用的vite因为直接跳过编译过程，打包和热更新速度直接起飞，再配合vue3方便好用的新特性，使用vue3开发的体验一个字概括就是：快！</p><p>在“一键挪车“项目中我使用了vue3开发了一些简单的页面。</p><h2 id="新特性" tabindex="-1"><a class="header-anchor" href="#新特性" aria-hidden="true">#</a> 新特性</h2><ul><li>组合式API</li><li>SFC单文件组件的setup语法糖</li><li>双向绑定实现的不同</li><li>template不再需要独立根节点</li><li>等等</li></ul><p>而生态方面 vue-router、vuex，改动不算太大，简单说，一切皆模块（es6模块）。</p><h2 id="直接进入主题-vue3项目搭建" tabindex="-1"><a class="header-anchor" href="#直接进入主题-vue3项目搭建" aria-hidden="true">#</a> 直接进入主题，vue3项目搭建</h2><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code><span class="token comment">// 创建项目</span>
+npm init vite@latest my<span class="token operator">-</span>vue<span class="token operator">-</span>app <span class="token operator">--</span>template vue
+
+<span class="token comment">// 初始化项目</span>
+cd my<span class="token operator">-</span>vue<span class="token operator">-</span>app
+npm install
+
+<span class="token comment">// 引入依赖</span>
+npm install vue<span class="token operator">-</span>router@next vuex@next <span class="token operator">--</span>save
+<span class="token comment">// 引入其他依赖</span>
+npm install axios  dayjs vant
+
+<span class="token comment">// 光速起飞</span>
+npm run dev
+<span class="token comment">// 光速打包</span>
+npm run dev
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h2 id="新的开发方式" tabindex="-1"><a class="header-anchor" href="#新的开发方式" aria-hidden="true">#</a> 新的开发方式</h2><p>这里使用实际项目代码演示，组合式api的概念，云云，如何使用setup。</p><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/front-end/%E9%87%8D%E5%A4%8D%E8%AF%B7%E6%B1%82%E5%8F%96%E6%B6%88%E7%BB%84%E4%BB%B6.html" class="" aria-label="重复请求取消组件"><!--[--><!--]--> 重复请求取消组件 <!--[--><!--]--></a></span><!----></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.3b0237f4.js" defer></script>
+  </body>
+</html>
