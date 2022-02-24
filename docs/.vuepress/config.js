@@ -18,10 +18,12 @@ module.exports = {
 
     sidebar: {
       "/front-end/": [
-        // SidebarItem
         "websocket的简单封装.md",
         "重复请求取消组件.md",
         "vue3开发体验分享.md",
+      ],
+      "/blockchain/": [
+        "Solidity函数修饰符.md",
       ],
     }
 
