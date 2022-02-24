@@ -4,7 +4,6 @@ module.exports = {
   title: '一个小博客',
   description: '这是我的第一个 VuePress 站点',
   head: [['link', { rel: 'icon', href: '/images/tou.jpg' }]],
-  dest: 'dist',
 
   // 主题和它的配置
   themeConfig: {
