@@ -35,6 +35,7 @@ module.exports = {
       { text: "Home", link: "/" },
       { text: "前端开发", link: "/front-end/index.md" },
       { text: "区块链", link: "/blockchain/index.md" },
+      { text: "杂谈", link: "/talk/index.md" },
       // { text: 'External', link: 'https://google.com' },
     ],
 
@@ -45,6 +46,7 @@ module.exports = {
         "vue3开发体验分享.md",
       ],
       "/blockchain/": ["Solidity函数修饰符.md"],
+      "/talk/": ["房地产统计图.md"],
     },
   }),
 };
