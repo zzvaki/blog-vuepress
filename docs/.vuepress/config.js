@@ -1,4 +1,5 @@
-const { defaultTheme } = require("@vuepress/theme-default");
+// const { defaultTheme } = require("@vuepress/theme-default");
+import { defaultTheme } from "@vuepress/theme-default"
 
 module.exports = {
   // 站点配置
